@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("images/Summer Beach GIF.gif") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.home-container {
+    padding: 40px;
+    background-color: #de5656;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(55, 5, 5, 0.2);
+    max-width: 90%;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+}
+
+p {
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.btn-portfolio {
+    padding: 12px 25px;
+    background-color: #4276a7;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    margin: 10px;
+    display: inline-block;
+}
+
+.btn-portfolio:hover {
+    background-color: #04497a;
+}
+
+/* Responsive for tablets */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .home-container {
+        padding: 30px;
+    }
+
+    .btn-portfolio {
+        padding: 10px 20px;
+        font-size: 14px;
+        margin: 8px;
+    }
+}
+
+/* Responsive for mobile */
+@media (max-width: 480px) {
+    body {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .home-container {
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .btn-portfolio {
+        padding: 8px 15px;
+        font-size: 12px;
+        margin: 5px;
+    }
+}
