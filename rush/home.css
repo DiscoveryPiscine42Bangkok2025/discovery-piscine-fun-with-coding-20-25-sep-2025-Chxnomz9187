@@ -40,60 +40,13 @@ p {
     text-decoration: none;
     font-weight: bold;
     border-radius: 8px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ,transform 0.2s;
     margin: 10px;
     display: inline-block;
 }
 
 .btn-portfolio:hover {
     background-color: #04497a;
-}
 
-/* Responsive for tablets */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2rem;
-    }
-
-    p {
-        font-size: 16px;
-    }
-
-    .home-container {
-        padding: 30px;
-    }
-
-    .btn-portfolio {
-        padding: 10px 20px;
-        font-size: 14px;
-        margin: 8px;
-    }
-}
-
-/* Responsive for mobile */
-@media (max-width: 480px) {
-    body {
-        height: auto;
-        padding: 20px 0;
-    }
-
-    h1 {
-        font-size: 1.5rem;
-    }
-
-    p {
-        font-size: 14px;
-        margin-bottom: 30px;
-    }
-
-    .home-container {
-        padding: 20px;
-        border-radius: 10px;
-    }
-
-    .btn-portfolio {
-        padding: 8px 15px;
-        font-size: 12px;
-        margin: 5px;
-    }
+    transform: scale(1.05);
 }
